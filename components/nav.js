@@ -23,8 +23,8 @@ export default function Nav(li) {
           <h1>Git Log ─ Portfolio</h1>
         </Link>
         <p className="pt-6 pb-8">
-          hello, i am doing my work something like blah blah blah that's when
-          did you eat? are you gonna go out to running?
+          hello, i am doing my work something like blah blah blah thats when did
+          you eat? are you gonna go out to running?
         </p>
         <ul className="pb-6">
           {works &&
