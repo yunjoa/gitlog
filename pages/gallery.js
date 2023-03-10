@@ -82,7 +82,10 @@ export default function Gallery() {
                       </div>
                       <Image
                         alt="project img"
+                        width={400}
+                        height={400}
                         src={project.mainImg}
+                        // src="/108-2.png"
                         className="w-auto max-w-full h-auto max-h-full"
                       />
                     </div>
@@ -109,10 +112,12 @@ export default function Gallery() {
             {works.map((img, key) => (
               <div key={key}>
                 <Image
+                  width={400}
+                  height={400}
                   alt="project img"
                   src={img.mainImg}
+                  // src="/108-2.png"
                   style={{
-                    width: "100%",
                     display: "block",
                     cursor: "pointer",
                   }}

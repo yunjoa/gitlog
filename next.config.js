@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: false,
+  reactStrictMode: true,
   images: {
-    domains: ["i.pinimg.com/"],
+    domains: ["user-images.githubusercontent.com", "yunjoa.github.io"],
   },
 };
 
