@@ -31,7 +31,7 @@ export default function Nav(li) {
             works.map((project, i) => {
               return (
                 <li
-                  className="{isActive ? 'underline' : '' }projects hover:underline underline-offset-4 pb-2"
+                  className="projects hover:underline underline-offset-4 pb-2"
                   key={i}
                   id={project.id}
                 >
