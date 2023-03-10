@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import Record from "../data.json";
+import Image from "next/image";
 
 const works = Record.map((project) => {
   return project;
@@ -79,7 +80,7 @@ export default function Gallery() {
                         </div>
                         <p className="w-4/6">{project.description}</p>
                       </div>
-                      <img
+                      <Image
                         src={project.mainImg}
                         className="w-auto max-w-full h-auto max-h-full"
                       />
@@ -106,7 +107,7 @@ export default function Gallery() {
           <Masonry columnsCount={3} gutter="20px">
             {works.map((img, key) => (
               <div key={key}>
-                <img
+                <Image
                   src={img.mainImg}
                   style={{
                     width: "100%",
