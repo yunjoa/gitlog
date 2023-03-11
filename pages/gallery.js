@@ -2,14 +2,20 @@ import React, { useState } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import Record from "../data.json";
 import Image from "next/image";
+import onClick from "../components/nav";
 
 const works = Record.map((project) => {
   return project;
 });
 
-export default function Gallery() {
+export default function Gallery({ onClick }) {
   const [data, setData] = useState({ img: "", i: 0 });
 
+  const changeProj = (onClick) => {
+    console.log(onClick);
+  };
+
+  changeProj();
   const viewProject = (img, i) => {
     setData({ img, i });
   };
@@ -36,11 +42,11 @@ export default function Gallery() {
 
   return (
     <div id="contents">
-      <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 sm:block md:hidden" />
+      <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 sm:hidden" />
       {data.img && (
         <div className="w-full overflow-hidden relative pb-20 ">
           {/* 버튼 */}
-          <div className="w-full flex justify-between align-center ">
+          <div className="pl-6 sm:pl-0 w-full flex justify-between align-center ">
             <button className="" onClick={() => imgAction()}>
               Index ⇡
             </button>
@@ -65,8 +71,8 @@ export default function Gallery() {
                 return (
                   <>
                     <div className="py-6" key={key}>
-                      <div className="flex pb-12 pr-6  ">
-                        <div className="w-2/6 pr-4 ">
+                      <div className=" sm:flex pb-12 pr-6 pl-6 sm:pl-0 ">
+                        <div className="w-full sm:w-2/6 sm:pr-4 pb-10 sm:pb-0 ">
                           <h2 className="text-2xl pb-2 font-light">
                             {project.title}
                           </h2>
@@ -78,14 +84,13 @@ export default function Gallery() {
                             [바로가기]
                           </a>
                         </div>
-                        <p className="w-4/6">{project.description}</p>
+                        <p className="w-full sm:w-4/6">{project.description}</p>
                       </div>
                       <Image
                         alt="project img"
-                        width={400}
-                        height={400}
+                        width={1200}
+                        height={600}
                         src={project.mainImg}
-                        // src="/108-2.png"
                         className="w-auto max-w-full h-auto max-h-full"
                       />
                     </div>
@@ -107,12 +112,14 @@ export default function Gallery() {
       )}
 
       <div className="p-10px">
-        <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+        <ResponsiveMasonry
+          columnsCountBreakPoints={{ 350: 1, 950: 2, 1200: 3 }}
+        >
           <Masonry columnsCount={3} gutter="20px">
             {works.map((img, key) => (
               <div key={key}>
                 <Image
-                  width={400}
+                  width={600}
                   height={400}
                   alt="project img"
                   src={img.mainImg}

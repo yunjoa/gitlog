@@ -10,8 +10,8 @@ export default function DarkModeToggleButton() {
       <button
         className="
                 absolute 
-                
-                bottom-5 left-5
+                top-1 right-5
+                sm:top-auto sm:bottom-5  sm:right-auto sm:left-5
 
                 inline-flex items-center border-0
                 py-1 px-1 rounded-full text-base mt-4 md:mt-0

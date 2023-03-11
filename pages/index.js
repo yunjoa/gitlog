@@ -2,9 +2,11 @@ import Head from "next/head";
 import Layout from "@/components/layout";
 import Gallery from "./gallery";
 import Record from "../data.json";
-import Notice from "./notice";
+import { useState } from "react";
 
 export default function Home() {
+  const [clickedProj, setClickedProj] = useState();
+
   return (
     <>
       <Layout Record={Record}>
