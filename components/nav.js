@@ -29,7 +29,7 @@ export default function Nav(li) {
           hello, i am doing my work something like blah blah blah thats when did
           you eat? are you gonna go out to running?
         </p>
-        <ul className="pb-6">
+        {/* <ul className="pb-6">
           {works &&
             works.map((project, i) => {
               return (
@@ -44,12 +44,12 @@ export default function Nav(li) {
                 </li>
               );
             })}
-        </ul>
+        </ul> */}
 
         <a
           href="https://github.com/yunjoa/"
           target="_blank"
-          className="pb-2 block"
+          className="pb-2 block hover:underline underline-offset-4"
         >
           git
         </a>
