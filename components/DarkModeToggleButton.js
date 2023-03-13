@@ -26,7 +26,7 @@ export default function DarkModeToggleButton() {
                 dark:hover:text-yellow-300
                 "
         type="button"
-        onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+        onClick={() => setTheme(theme === "light" ? "dark" : "light")}
       >
         {/* 라이트 모드 */}
         <svg

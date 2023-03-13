@@ -90,7 +90,7 @@ export default function Gallery() {
                               width={1200}
                               height={600}
                               src={apic}
-                              className="w-auto max-w-full h-auto max-h-full  "
+                              className="w-auto max-w-full h-auto max-h-full  border"
                             />
                           </div>
                         );
@@ -119,7 +119,7 @@ export default function Gallery() {
         >
           <Masonry columnsCount={3} gutter="20px">
             {works.map((img, key) => (
-              <div key={key}>
+              <div key={key} className="border">
                 <Image
                   width={600}
                   height={400}
