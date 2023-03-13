@@ -6,7 +6,7 @@ export default function DarkModeToggleButton() {
   // setTheme : 현재 값 바꾸기 setter
   const { theme, setTheme } = useTheme();
 
-  useEffect(() => setTheme("theme" === "dark" ? "light" : "dark"), []);
+  useEffect(() => setTheme(theme === "dark" ? "light" : "dark"), []);
   return (
     <>
       <button
@@ -26,7 +26,7 @@ export default function DarkModeToggleButton() {
                 dark:hover:text-yellow-300
                 "
         type="button"
-        onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+        onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       >
         {/* 라이트 모드 */}
         <svg
