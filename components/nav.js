@@ -1,24 +1,7 @@
 import Link from "next/link";
 import DarkModeToggleButton from "./DarkModeToggleButton";
-import Record from "../data.json";
-import { useState } from "react";
 
-export default function Nav(li) {
-  const [clickedProj, setClickedProj] = useState();
-
-  const onClcik = (e) => {
-    // console.log(e.target.textContent);
-    // 이 값을 넘겨서 화면을 보여주게 하기
-    // console.log(e.target.id);
-    // 이 값을 넘겨서 화면을 보여주게 하기
-    let setClickedProj = e.target.id;
-    return setClickedProj;
-  };
-
-  const works = Record.map((project) => {
-    return project;
-  });
-
+export default function Nav() {
   return (
     <>
       <div className="p-6 md:pr-10 w-full sm:w-2/5  sm:fixed sm:top-0 sm:h-screen md:w-2/5 lg:w-1/5">
@@ -26,8 +9,9 @@ export default function Nav(li) {
           <h1>Git Log ─ Portfolio</h1>
         </Link>
         <p className="pt-6 pb-8">
-          hello, i am doing my work something like blah blah blah thats when did
-          you eat? are you gonna go out to running?
+          hello, I am looking for a job. I used to work in editorial design. I
+          like to make new things. Also I like to look around the new website.
+          In my free time, I read books or watch LCK.
         </p>
         {/* <ul className="pb-6">
           {works &&

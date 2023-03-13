@@ -2,20 +2,14 @@ import React, { useState } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import Record from "../data.json";
 import Image from "next/image";
-import onClick from "../components/nav";
 
 const works = Record.map((project) => {
   return project;
 });
 
-export default function Gallery({ onClick }) {
+export default function Gallery() {
   const [data, setData] = useState({ img: "", i: 0 });
 
-  const changeProj = (onClick) => {
-    console.log(onClick);
-  };
-
-  changeProj();
   const viewProject = (img, i) => {
     setData({ img, i });
   };
@@ -67,10 +61,11 @@ export default function Gallery({ onClick }) {
 
           {works &&
             works.map((project, key) => {
+              let pics = project.pictures;
               if (project.id == data.i) {
                 return (
-                  <>
-                    <div className="py-6" key={key}>
+                  <div key={key}>
+                    <div className="py-6">
                       <div className=" sm:flex pb-12 pr-6 pl-6 sm:pl-0 ">
                         <div className="w-full sm:w-2/6 sm:pr-4 pb-10 sm:pb-0 ">
                           <h2 className="text-2xl pb-2 font-light">
@@ -79,25 +74,32 @@ export default function Gallery({ onClick }) {
                           <a
                             href={project.href}
                             target="_blank"
-                            className="text-sm italic"
+                            className="text-sm italic hover:underline underline-offset-4 pb-2"
                           >
                             [바로가기]
                           </a>
                         </div>
                         <p className="w-full sm:w-4/6">{project.description}</p>
                       </div>
-                      <Image
-                        alt="project img"
-                        width={1200}
-                        height={600}
-                        src={project.mainImg}
-                        className="w-auto max-w-full h-auto max-h-full"
-                      />
+
+                      {pics.map((apic, key) => {
+                        return (
+                          <div key={key} className="pb-4 last:pb-0 ">
+                            <Image
+                              alt="project img"
+                              width={1200}
+                              height={600}
+                              src={apic}
+                              className="w-auto max-w-full h-auto max-h-full  "
+                            />
+                          </div>
+                        );
+                      })}
                     </div>
                     <p className="text-zinc-500 text-xs pb-20">
                       Update {project.updateDate}
                     </p>
-                  </>
+                  </div>
                 );
               }
             })}
@@ -123,7 +125,6 @@ export default function Gallery({ onClick }) {
                   height={400}
                   alt="project img"
                   src={img.mainImg}
-                  // src="/108-2.png"
                   style={{
                     display: "block",
                     cursor: "pointer",

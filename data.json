@@ -1,35 +1,35 @@
 [
   {
     "id" : "1",
-    "title":"title1",
-    "description" :"What is Lorem Ipsum? What is Lorem Ipsum? What is Lorem Ipsum? What is Lorem Ipsum? What is Lorem Ipsum? What is Lorem Ipsum? What is Lorem Ipsum? What is Lorem Ipsum? What is Lorem Ipsum? What is Lorem Ipsum? What is Lorem Ipsum?What is Lorem Ipsum?What is Lorem Ipsum? What is Lorem Ipsum?",
+    "title":"Book Check",
+    "description" :"Notion AI를 활용해서 데이터베이스를 가져와서 웹페이지에 자동으로 업로드되는 웹사이트. NEXT, Tailwind 등을 사용했다.",
     "pictures" : [
-      "https://i.pinimg.com/564x/89/bd/e7/89bde7860de913917a0e9cf58773066e.jpg", "https://i.pinimg.com/736x/37/f0/9b/37f09b1e49eab29b08f8f231ad553d04.jpg"
+      "https://user-images.githubusercontent.com/52683681/224598834-fa09d370-e4ea-4157-a3c0-8490bc9b3025.png","https://user-images.githubusercontent.com/52683681/224598837-b72a0dfd-58a4-4b86-b7b2-fe841624112b.png", "https://user-images.githubusercontent.com/52683681/224598903-eaf1ebd7-16b2-4cac-9a6a-f857a63dc45b.png"
     ],
-    "mainImg" : "https://user-images.githubusercontent.com/52683681/222697752-c8962f66-c64b-4ef1-bf8d-ea17b1f555bd.png",
+    "mainImg" : "https://user-images.githubusercontent.com/52683681/224599012-1e245837-2fa7-49f9-9004-174083979863.png",
     "href" : "https://www.naver.com",
     "updateDate" : "0000-00-00"
   },
   {
     "id" : "2",
-    "title":"title2",
-    "description" :" 프로젝트 간략 설명 What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to uent here, conte, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for  will uncover many web sites still in their",
+    "title":"팀 프로젝트 Planner",
+    "description" :"팀 프로젝트, 로컬 스토리지를 이용한 data 저장, 수정, 삭제 기능을 넣어 캘린더를 만들었다.",
     "pictures" : [
-      ""
+      "https://user-images.githubusercontent.com/52683681/224593737-29775208-5cb6-47d2-818a-079785c4928e.png", "https://user-images.githubusercontent.com/52683681/224592727-73608d42-d7c7-4f06-8b44-d356fc48f2aa.png"
     ],
-    "mainImg" : "https://user-images.githubusercontent.com/52683681/222697752-c8962f66-c64b-4ef1-bf8d-ea17b1f555bd.png",
-    "href" : "https://www.naver.com",
+    "mainImg" : "https://user-images.githubusercontent.com/52683681/224592507-e6ccac2a-c56c-4bdb-8a9c-ffa3e2102d16.png",
+    "href" : "https://green-insta-project.github.io/planner/",
 
-    "updateDate" : "0000-00-02"
+    "updateDate" : "2022-03-16"
   },
   {
     "id" : "3",
     "title":"Unit Box",
     "description" :"자주 사용하는 unit을 정리/보관하기 위해 만든 사이트. PC 최적화. unit을 리스트업해서 모아놓고 한 번 클릭시 오른쪽 iframe에서 미리보기할 수 있으며, 더블 클릭시 코드가 복사된다. 풀 화면으로 보고 싶을 경우 Click을 누르면 새 창으로 띄워진다. 우측 상단에서 찾고 싶은 unit을 검색할 수 있다.",
     "pictures" : [
-      ""
+      "https://user-images.githubusercontent.com/52683681/222697752-c8962f66-c64b-4ef1-bf8d-ea17b1f555bd.png"
     ],
-    "mainImg" : "https://user-images.githubusercontent.com/52683681/211294265-428eeab7-1697-441f-b713-663e70030163.png",
+    "mainImg" : "https://user-images.githubusercontent.com/52683681/222697752-c8962f66-c64b-4ef1-bf8d-ea17b1f555bd.png",
     "href" : "https://yunjoa.github.io/each/",
     "updateDate" : "0022-03-03"
   },
@@ -38,7 +38,7 @@
     "title":"108 Inner-PEACE",
     "description" :"108배 체험하고 영감 받아 만든 사이트. 1기도 하면서 1절 하고 터치하거나 클릭하면 getJSON으로 108기도문을 읽어온다. 증감 연산자로 페이지 이동을 하고 2p부터 뒤로가기 버튼을 노출한다.  ",
     "pictures" : [
-      ""
+      "https://user-images.githubusercontent.com/52683681/222697752-c8962f66-c64b-4ef1-bf8d-ea17b1f555bd.png", "https://user-images.githubusercontent.com/52683681/222697752-c8962f66-c64b-4ef1-bf8d-ea17b1f555bd.png"
     ],
     "mainImg" : "https://user-images.githubusercontent.com/52683681/211294265-428eeab7-1697-441f-b713-663e70030163.png",
     "href" : "https://yunjoa.github.io/inner-peace/",
@@ -49,7 +49,7 @@
     "title":"I'll wait, wait for me",
     "description" :" 동화책  ",
     "pictures" : [
-      ""
+      "https://user-images.githubusercontent.com/52683681/222697752-c8962f66-c64b-4ef1-bf8d-ea17b1f555bd.png", "https://user-images.githubusercontent.com/52683681/222697752-c8962f66-c64b-4ef1-bf8d-ea17b1f555bd.png"
     ],
     "mainImg" : "https://yunjoa.github.io/wait-wait/images/bg_end.png",
     "href" : "yunjoa.github.io/wait-wait/",
@@ -60,7 +60,7 @@
     "title":"pro git - reading",
     "description" :" Docsify를 사용하여 pro git을 읽으면서 요약해봤다(…ing). html을 생성하지 않고 markdown 파일로 정적 웹사이트를 만들었다. 목차 정리하기 좋은 템플릿이고, 쇼케이스를 보면 config나 핸드북, 설명서 용도로 많이 쓰인다고 한다.",
     "pictures" : [
-      ""
+      "https://user-images.githubusercontent.com/52683681/222697752-c8962f66-c64b-4ef1-bf8d-ea17b1f555bd.png", "https://user-images.githubusercontent.com/52683681/222697752-c8962f66-c64b-4ef1-bf8d-ea17b1f555bd.png"
     ],
     "mainImg" : "https://yunjoa.github.io/wait-wait/images/bg_end.png",
     "href" : "yunjoa.github.io/progit",

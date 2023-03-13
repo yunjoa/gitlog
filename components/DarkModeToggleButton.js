@@ -1,10 +1,12 @@
 import { useTheme } from "next-themes";
+import { useEffect } from "react";
 
 export default function DarkModeToggleButton() {
   // theme : 현재 값 가져오기 getter
   // setTheme : 현재 값 바꾸기 setter
   const { theme, setTheme } = useTheme();
 
+  useEffect(() => setTheme("theme" === "dark" ? "light" : "dark"), []);
   return (
     <>
       <button
