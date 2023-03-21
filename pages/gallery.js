@@ -10,8 +10,14 @@ const works = Record.map((project) => {
 export default function Gallery() {
   const [data, setData] = useState({ img: "", i: 0 });
 
+  // const viewProject = (img, i) => {
+  //   setData({ img, i });
+  // };
   const viewProject = (img, i) => {
-    setData({ img, i });
+    const selectedProject = works.find((project) => project.id == i);
+    if (selectedProject) {
+      setData({ img, i });
+    }
   };
 
   const imgAction = (action) => {
@@ -60,7 +66,7 @@ export default function Gallery() {
           {/* 프로젝트 내용 */}
 
           {works &&
-            works.reverse().map((project, key) => {
+            works.map((project, key) => {
               let pics = project.pictures;
               if (project.id == data.i) {
                 return (
