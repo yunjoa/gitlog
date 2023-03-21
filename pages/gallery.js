@@ -60,7 +60,7 @@ export default function Gallery() {
           {/* 프로젝트 내용 */}
 
           {works &&
-            works.map((project, key) => {
+            works.reverse().map((project, key) => {
               let pics = project.pictures;
               if (project.id == data.i) {
                 return (
@@ -78,8 +78,21 @@ export default function Gallery() {
                           >
                             [바로가기]
                           </a>
+                          <br />
+                          <a
+                            href={project.githref}
+                            target="_blank"
+                            className="text-sm italic hover:underline underline-offset-4 pb-2"
+                          >
+                            [git]
+                          </a>
                         </div>
-                        <p className="w-full sm:w-4/6">{project.description}</p>
+                        <p
+                          className="w-full sm:w-4/6"
+                          dangerouslySetInnerHTML={{
+                            __html: project.description,
+                          }}
+                        ></p>
                       </div>
 
                       {pics.map((apic, key) => {

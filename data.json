@@ -2,23 +2,26 @@
   {
     "id" : "1",
     "title":"HyundaiCard - the pink",
-    "description" :"이벤트 랜딩페이지 퍼블리싱/디자인, 기존 페이지(https://card.hyundaicard.com/EVENT?id=vpn50)를 참고해서 리뉴얼하였고 작업은 2일(2023.3.17~3.18) 소요. setInterval로 메인 비쥬얼이 5초마다 변경되며, 상단에 있는 프로그레스바로 스크롤 진행 상태를 확인할 수 있다. IntersectionObserver로  스크롤시 인지되는 요소에 밑에서 위로 올라오는 효과를 주었고, 최상단으로 올라가면 모든 효과를 제거해서 다시 스크롤하면 또 효과가 적용되도록 했다. 키 프레임으로 카드 spin효과를 주었고 하단 독소조항 위치에 도착하면 응모버튼이 위로 올라오도록 했다. 반응형 @media (max-width: 1249px), @media (max-width: 768px) 완료했다. ",
+    "description" :"이벤트 랜딩페이지 퍼블리싱/디자인, <a href='https://card.hyundaicard.com/EVENT?id=vpn50' target='_blank' style='text-decoration: underline;'>기존 페이지</a>를 참고해서 리뉴얼하였고 2일(2023.3.17~3.18) 소요.<br /><br/ > setInterval로 메인 비쥬얼이 5초마다 변경되며, 상단에 있는 프로그레스바로 스크롤 진행 상태를 확인할 수 있다. IntersectionObserver로  스크롤시 인지되는 요소에 밑에서 위로 올라오는 효과를 주었고,   최상단으로 올라가면 모든 효과를 제거해서 다시 스크롤하면 또 효과가 적용되도록 했다. <br/ > <br/> 키 프레임으로 카드 spin효과를 주었고 하단 독소조항 위치에 도착하면 응모버튼이 위로 올라오도록 했다. <br/ > 반응형 @media (max-width: 1249px), @media (max-width: 768px) 완료했다. ",
     "pictures" : [
       "https://user-images.githubusercontent.com/52683681/226163443-958bd38a-55d9-4cde-ba19-157f9e7d1e84.png","https://user-images.githubusercontent.com/52683681/226163460-0dabf334-8671-4687-a0fd-1efb822c3280.png"
     ],
     "mainImg" : "https://user-images.githubusercontent.com/52683681/226163422-7cf15003-d49f-40d0-b415-1cb61b748e4d.png",
     "href" : "https://yunjoa.github.io/hyundai-pink/",
+    "githref" : "https://github.com/yunjoa/gitlog",
     "updateDate" : "2023-03-19"
   },
   {
     "id" : "2",
     "title":"Book Check",
-    "description" :"Notion AI를 활용해서 데이터베이스를 가져와서 웹페이지에 자동으로 업로드되는 웹사이트. NEXT, Tailwind 등을 사용했다.",
+    "description" :"Notion AI를 활용한 독서기록장 <br /> Notion 데이터베이스를 가져와서 웹페이지에 자동으로 업로드, NEXT, Tailwind 등을 사용했다.",
     "pictures" : [
       "https://user-images.githubusercontent.com/52683681/224598834-fa09d370-e4ea-4157-a3c0-8490bc9b3025.png","https://user-images.githubusercontent.com/52683681/224598837-b72a0dfd-58a4-4b86-b7b2-fe841624112b.png", "https://user-images.githubusercontent.com/52683681/224598903-eaf1ebd7-16b2-4cac-9a6a-f857a63dc45b.png"
     ],
     "mainImg" : "https://user-images.githubusercontent.com/52683681/224599012-1e245837-2fa7-49f9-9004-174083979863.png",
     "href" : "#",
+    "githref" : "https://github.com/yunjoa/",
+
     "updateDate" : "2023-03-01"
   },
   {
@@ -30,36 +33,41 @@
     ],
     "mainImg" : "https://user-images.githubusercontent.com/52683681/224592507-e6ccac2a-c56c-4bdb-8a9c-ffa3e2102d16.png",
     "href" : "https://green-insta-project.github.io/planner/",
+    "githref" : "https://github.com/green-insta-project/planner",
 
     "updateDate" : "2022-03-16"
   },
   {
     "id" : "4",
     "title":"Unit Box",
-    "description" :"자주 사용하는 unit을 정리/보관하기 위해 만든 사이트. PC 최적화. unit을 리스트업해서 모아놓고 한 번 클릭시 오른쪽 iframe에서 미리보기할 수 있으며, 더블 클릭시 코드가 복사된다. 풀 화면으로 보고 싶을 경우 Click을 누르면 새 창으로 띄워진다. 우측 상단에서 찾고 싶은 unit을 검색할 수 있다.",
+    "description" :"자주 사용하는 unit을 정리/보관하기 위해 만든 사이트. <br /><br />PC 최적화. unit을 리스트업해서 모아놓고 한 번 클릭시 오른쪽 iframe에서 미리보기할 수 있으며, 더블 클릭시 코드가 복사된다. 풀 화면으로 보고 싶을 경우 Click을 누르면 새 창으로 띄워진다. 우측 상단에서 찾고 싶은 unit을 검색할 수 있다.",
     "pictures" : [
       "https://user-images.githubusercontent.com/52683681/222697752-c8962f66-c64b-4ef1-bf8d-ea17b1f555bd.png","https://user-images.githubusercontent.com/52683681/224606677-3b7dba0b-f8d0-43aa-b22f-c59486c4c819.png"
     ],
     "mainImg" : 
     "https://user-images.githubusercontent.com/52683681/224606819-346aa9ba-0e6c-48f2-8650-ff771e4a1134.png",
     "href" : "https://yunjoa.github.io/each/",
+    "githref" : "https://github.com/yunjoa/each",
+
     "updateDate" : "2022-03-03"
   },
   {
     "id" : "5",
     "title":"I'll wait, wait for me",
-    "description" :" 이적의 '기다릴게 기다려 줘' 라는 동화책으로 스크롤로 화면 전환할 수 있는 인터렉티브 웹사이트를 만들어봤다.  IntersectionObserver을 이용해서 스크롤을 내리면서 인식 노출된 화면 안에서 타겟을 인식해 이미지와 글을 페어링해서 보여주도록 했다. ",
+    "description" :" 스크롤로 화면 전환할 수 있는 인터렉티브 웹사이트를 만들어봤다. <br /> 이적의 '기다릴게 기다려 줘' 라는 동화책. IntersectionObserver을 이용해서 스크롤을 내리면서 인식 노출된 화면 안에서 타겟을 인식해 이미지와 글을 페어링해서 보여주도록 했다. ",
     "pictures" : [
       "https://user-images.githubusercontent.com/52683681/224608622-624ef5b8-5f9c-4e9e-b5a9-1038d1db24af.png", "https://user-images.githubusercontent.com/52683681/224608658-608989e5-5430-4afa-a160-3041a123aab5.png", "https://user-images.githubusercontent.com/52683681/224608677-e95c9b2b-cdcb-42df-9270-4ed89a52945c.png"
     ],
     "mainImg" : "https://user-images.githubusercontent.com/52683681/224608454-7ca92149-1f32-4cf1-ba22-6f203cdbfa46.png",
     "href" : "https://yunjoa.github.io/wait-wait/",
+    "githref" : "https://github.com/yunjoa/wait-wait",
+
     "updateDate" : "0022-01-29"
   },
   {
     "id" : "6",
     "title":"오로벨 차임벨 웹사이트",
-    "description" :"차임벨을 구매했던 사이트를 리뉴얼해봤다. 홈에 json data로 상품 정보를 불러와서 차임벨 소리를 들어보고 장바구니에 담을 수 있다. 하단엔 SNS 스타일의 슬라이드도 추가했다.",
+    "description" :"차임벨을 구매했던 사이트를 리뉴얼해봤다. <br /> json data로 상품 정보를 불러와서 차임벨 소리를 들어보고 장바구니에 담을 수 있다. <br />하단부에 SNS 스타일의 슬라이드도 추가했다.",
     "pictures" : [
       "https://user-images.githubusercontent.com/52683681/224609260-2e6ca932-ebc6-4901-95f6-bde8cfe9e40b.png", 
       "https://user-images.githubusercontent.com/52683681/224609285-4a2a469a-4b58-49bc-9240-2a0262e1010b.png",
@@ -67,23 +75,27 @@
     ],
     "mainImg" : "https://user-images.githubusercontent.com/52683681/224609246-394d0b01-87a7-42d3-a7fa-c2e75b5147e3.png",
     "href" : "https://yunjoa.github.io/---/",
+    "githref" : "https://github.com/yunjoa//---/",
+
     "updateDate" : "0022-01-29"
   },
   {
     "id" : "7",
     "title":"108 Inner-PEACE",
-    "description" :"108배 체험하고 영감 받아 만든 사이트. 1기도 하면서 1절 하고 터치하거나 클릭하면 getJSON으로 108기도문을 읽어온다. 증감 연산자로 페이지 이동을 하고 2p부터 뒤로가기 버튼을 노출한다.  ",
+    "description" :"108배 체험하고 영감 받아 만든 사이트. <br />1기도 하면서 1절 하고 터치하거나 클릭하면 getJSON으로 108기도문을 읽어온다. <br />증감 연산자로 페이지 이동을 하고 2p부터 뒤로가기 버튼을 노출한다.  ",
     "pictures" : [
        "https://user-images.githubusercontent.com/52683681/224607544-c41a3796-631c-46bc-bafa-50858d3f6657.png","https://user-images.githubusercontent.com/52683681/224607547-9d8fb703-7b34-45cc-8766-d3976fa55bd8.png","https://user-images.githubusercontent.com/52683681/224607537-7feab19c-a844-4325-8eff-21fe72d34710.png"
     ],
     "mainImg" : "https://user-images.githubusercontent.com/52683681/224607543-11d6fab6-0910-47b2-b1ce-30604908cd89.png",
     "href" : "https://yunjoa.github.io/inner-peace/",
+    "githref" : "https://github.com/yunjoa/inner-peace",
+
     "updateDate" : "0022-01-09"
   },
   {
     "id" : "8",
     "title":"우아미 가구 웹사이트",
-    "description" :"html과 css를 배워 처음으로 만들어본 사이트. 네비가 스크롤을 내리면 숨기고 스크롤을 올리면 보이게 했다. 슬릭 슬라이드를 이용해 메인 배너를 만들었다. 쿠키를 이용해 10초 동안 보지 않기 팝업을 만들어 봤다. ",
+    "description" :"html과 css를 배워 처음으로 만들어본 사이트. <br />네비가 스크롤을 내리면 숨기고 스크롤을 올리면 보이게 했다. 슬릭 슬라이드를 이용해 메인 배너를 만들었다. 쿠키를 이용해 10초 동안 보지 않기 팝업을 만들어 봤다. ",
     "pictures" : [
       "https://user-images.githubusercontent.com/52683681/224610515-bb12c6c6-62e7-4b84-b5ff-eee274aeebf4.png", 
       "https://user-images.githubusercontent.com/52683681/224610667-165dc49e-2fce-4d5c-bfc4-c0a005a411e6.png",
@@ -91,7 +103,9 @@
    
     ],
     "mainImg" : "https://user-images.githubusercontent.com/52683681/224610502-ff5e4277-e5d3-4952-96d7-a8cddf591bba.png",
-    "href" : "https://yunjoa.github.io/wooami/index.html",
+    "href" : "https://yunjoa.github.io/wooami/",
+    "githref" : "https://github.com/yunjoa/wooami",
+
     "updateDate" : "0021-00-00"
   }
 ]
