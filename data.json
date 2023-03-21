@@ -107,5 +107,20 @@
     "githref" : "https://github.com/yunjoa/wooami",
 
     "updateDate" : "0021-00-00"
+  },
+  {
+    "id" : "9",
+    "title":"포트폴리오",
+    "description" :"포트폴리오 사이트 </br> next 프레임, vercel 배포, tailwind 와 next-themes를 이용한 다크모드 지원. </br> Masonry를 사용한 이미지 쌓았고,  data는 json으로 가져다 썼다. 반응형 완료.",
+    "pictures" : [
+      "https://user-images.githubusercontent.com/52683681/226516271-cffcb0bb-f915-44e8-8063-9f9f790d74e5.png", 
+      "https://user-images.githubusercontent.com/52683681/226516480-48ab2b9b-2119-47a4-9f9d-ec439d4b695b.png"
+    ],
+    "mainImg" : "https://user-images.githubusercontent.com/52683681/226516616-f83807ca-6e12-42c8-a9df-2f68d8b05299.png",
+    "href" : "https://gitlog-yunjoa.vercel.app/",
+    "githref" : "https://github.com/yunjoa/gitlog",
+
+    "updateDate" : "0021-03-06"
   }
+
 ]
