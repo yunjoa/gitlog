@@ -41,12 +41,12 @@ export default function Gallery() {
   }
 
   return (
-    <div id="contents">
-      <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 sm:hidden" />
+    <div>
+      <hr className="h-px bg-gray-200 border-0 dark:bg-gray-700 sm:hidden" />
       {data.img && (
         <div className="w-full overflow-hidden relative pb-20 ">
           {/* 버튼 */}
-          <div className="pl-6 sm:pl-0 w-full flex justify-between align-center ">
+          <div className="pl-6 sm:pl-0 w-full flex justify-between align-center md:pt-0 pt-10">
             <button className="" onClick={() => imgAction()}>
               Index ⇡
             </button>
@@ -115,14 +115,18 @@ export default function Gallery() {
                         );
                       })}
                     </div>
-                    <p className="text-zinc-500 text-xs pb-20">
+                    <p className="text-zinc-500 text-xs pb-20 pl-6 md:pl-0">
                       Update {project.updateDate}
                     </p>
                   </div>
                 );
               }
             })}
-
+          <div className="w-full text-right px-6">
+            <button className="" onClick={() => up()}>
+              Top ⇡
+            </button>
+          </div>
           <div className="inline-flex items-center justify-center w-full">
             <hr className="w-full h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
             <span className="  bg-white   dark:bg-[#121212] absolute px-3 -translate-x-1/2  left-1/2    text-zinc-400 text-2xl font-light ">

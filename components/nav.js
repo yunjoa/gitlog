@@ -35,9 +35,9 @@ export default function Nav() {
         <a
           href="https://github.com/yunjoa/"
           target="_blank"
-          className="pb-2 block hover:underline underline-offset-4 dark:text-white"
+          className="pb-2 block hover:underline underline-offset-4 dark:text-white inline"
         >
-          git
+          <span>git</span>
         </a>
         <DarkModeToggleButton />
       </div>
