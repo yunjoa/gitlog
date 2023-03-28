@@ -27,32 +27,22 @@
   },
   {
     "id" : "3",
-    "title":"Book Check",
-    "description" :"Notion AI를 활용한 독서기록장 <br /> Notion 데이터베이스를 가져와서 웹페이지에 자동으로 업로드, NEXT, Tailwind 등을 사용했다.",
+    "title":"포트폴리오",
+    "description" :"포트폴리오 사이트 (지금 이 사이트요⊹) </br> </br>next 프레임에서 작업하고 vercel 배포했다. tailwind css, next-themes를 이용해 다크모드를 적용했다. (카톡 내 브라우저에서만 다크모드가 안 먹혀요) </br> Masonry 모듈을 사용해 이미지를 벽돌식으로 쌓았고, data는 json으로 호출했다. </br> 반응형은 마찬가지로 tailwind로 sm:(min-width: 640px) md:(min-width: 768px) lg:(min-width: 1024px) 등 클래스를 이용했다.",
     "pictures" : [
-      "https://user-images.githubusercontent.com/52683681/224598834-fa09d370-e4ea-4157-a3c0-8490bc9b3025.png","https://user-images.githubusercontent.com/52683681/224598837-b72a0dfd-58a4-4b86-b7b2-fe841624112b.png", "https://user-images.githubusercontent.com/52683681/224598903-eaf1ebd7-16b2-4cac-9a6a-f857a63dc45b.png"
+      "https://user-images.githubusercontent.com/52683681/227114278-5acf37ca-b0b0-4298-abe7-c37b31be4834.png",
+      "https://user-images.githubusercontent.com/52683681/227114319-349a0ce9-1d5b-472a-827c-aba1279dcf7b.png" 
     ],
-    "mainImg" : "https://user-images.githubusercontent.com/52683681/224599012-1e245837-2fa7-49f9-9004-174083979863.png",
-    "href" : "https://book-check.vercel.app/",
-    "githref" : "https://github.com/yunjoa/book-check",
+    "mainImg" : "https://user-images.githubusercontent.com/52683681/227114418-3867cfb3-b423-4210-8fb0-47ddb98b954f.png",
+    "href" : "https://gitlog-yunjoa.vercel.app/",
+    "githref" : "https://github.com/yunjoa/gitlog",
 
-    "updateDate" : "2023-03-01"
+    "updateDate" : "0021-03-06"
   },
+
+
   {
     "id" : "4",
-    "title":"팀 프로젝트 Planner",
-    "description" :"팀 프로젝트, 로컬 스토리지를 이용한 data 저장, 수정, 삭제 기능을 넣어 캘린더를 만들었다.",
-    "pictures" : [
-      "https://user-images.githubusercontent.com/52683681/224593737-29775208-5cb6-47d2-818a-079785c4928e.png", "https://user-images.githubusercontent.com/52683681/224592727-73608d42-d7c7-4f06-8b44-d356fc48f2aa.png"
-    ],
-    "mainImg" : "https://user-images.githubusercontent.com/52683681/224592507-e6ccac2a-c56c-4bdb-8a9c-ffa3e2102d16.png",
-    "href" : "https://green-insta-project.github.io/planner/",
-    "githref" : "https://github.com/green-insta-project/planner",
-
-    "updateDate" : "2022-03-16"
-  },
-  {
-    "id" : "5",
     "title":"Unit Box",
     "description" :"자주 사용하는 unit을 정리/보관하기 위해 만든 사이트. <br /><br />PC 최적화. unit을 리스트업해서 모아놓고 한 번 클릭시 오른쪽 iframe에서 미리보기할 수 있으며, 더블 클릭시 코드가 복사된다. 풀 화면으로 보고 싶을 경우 Click을 누르면 새 창으로 띄워진다. 우측 상단에서 찾고 싶은 unit을 검색할 수 있다.",
     "pictures" : [
@@ -65,35 +55,7 @@
     "updateDate" : "2022-03-03"
   },
   {
-    "id" : "6",
-    "title":"I'll wait, wait for me",
-    "description" :" 스크롤로 화면 전환할 수 있는 인터렉티브 웹사이트를 만들어봤다. <br /> 이적의 '기다릴게 기다려 줘' 라는 동화책. IntersectionObserver을 이용해서 스크롤을 내리면서 인식 노출된 화면 안에서 타겟을 인식해 이미지와 글을 페어링해서 보여주도록 했다. ",
-    "pictures" : [
-      "https://user-images.githubusercontent.com/52683681/224608622-624ef5b8-5f9c-4e9e-b5a9-1038d1db24af.png", "https://user-images.githubusercontent.com/52683681/224608658-608989e5-5430-4afa-a160-3041a123aab5.png", "https://user-images.githubusercontent.com/52683681/224608677-e95c9b2b-cdcb-42df-9270-4ed89a52945c.png"
-    ],
-    "mainImg" : "https://user-images.githubusercontent.com/52683681/224608454-7ca92149-1f32-4cf1-ba22-6f203cdbfa46.png",
-    "href" : "https://yunjoa.github.io/wait-wait/",
-    "githref" : "https://github.com/yunjoa/wait-wait",
-
-    "updateDate" : "0022-01-29"
-  },
-  {
-    "id" : "7",
-    "title":"오로벨 차임벨 웹사이트",
-    "description" :"차임벨을 구매했던 사이트를 리뉴얼해봤다. <br /> json data로 상품 정보를 불러와서 차임벨 소리를 들어보고 장바구니에 담을 수 있다. <br />하단부에 SNS 스타일의 슬라이드도 추가했다.",
-    "pictures" : [
-      "https://user-images.githubusercontent.com/52683681/224609260-2e6ca932-ebc6-4901-95f6-bde8cfe9e40b.png", 
-      "https://user-images.githubusercontent.com/52683681/224609285-4a2a469a-4b58-49bc-9240-2a0262e1010b.png",
-      "https://user-images.githubusercontent.com/52683681/224609267-5c8e6e5e-4dae-45e1-af14-b0de8d1486dc.png"
-    ],
-    "mainImg" : "https://user-images.githubusercontent.com/52683681/224609246-394d0b01-87a7-42d3-a7fa-c2e75b5147e3.png",
-    "href" : "https://yunjoa.github.io/---/",
-    "githref" : "https://github.com/yunjoa//---/",
-
-    "updateDate" : "0022-01-29"
-  },
-  {
-    "id" : "8",
+    "id" : "5",
     "title":"108 Inner-PEACE",
     "description" :"108배 체험하고 영감 받아 만든 사이트. <br />1기도 하면서 1절 하고 터치하거나 클릭하면 getJSON으로 108기도문을 읽어온다. <br />증감 연산자로 페이지 이동을 하고 2p부터 뒤로가기 버튼을 노출한다.  ",
     "pictures" : [
@@ -106,7 +68,7 @@
     "updateDate" : "0022-01-09"
   },
   {
-    "id" : "9",
+    "id" : "6",
     "title":"우아미 가구 웹사이트",
     "description" :"html과 css를 배워 처음으로 만들어본 사이트. <br />네비가 스크롤을 내리면 숨기고 스크롤을 올리면 보이게 했다. 슬릭 슬라이드를 이용해 메인 배너를 만들었다. 쿠키를 이용해 10초 동안 보지 않기 팝업을 만들어 봤다. ",
     "pictures" : [
@@ -122,18 +84,17 @@
     "updateDate" : "0021-00-00"
   },
   {
-    "id" : "10",
-    "title":"포트폴리오",
-    "description" :"포트폴리오 사이트 (지금 이 사이트요! ⊹꒰⍢⑅ ꒱꙳) </br> </br>next 프레임에서 작업하고 vercel 배포했다. tailwind css, next-themes를 이용해 다크모드를 적용했다. (카톡 내 브라우저에서만 다크모드가 안 먹혀요) </br> Masonry 모듈을 사용해 이미지를 벽돌식으로 쌓았고, data는 json으로 호출했다. </br> 반응형은 마찬가지로 tailwind로 sm:(min-width: 640px) md:(min-width: 768px) lg:(min-width: 1024px) 등 클래스를 이용했다.",
+    "id" : "7",
+    "title":"팀 프로젝트 Planner",
+    "description" :"팀 프로젝트, 로컬 스토리지를 이용한 data 저장, 수정, 삭제 기능을 넣어 캘린더를 만들었다.",
     "pictures" : [
-      "https://user-images.githubusercontent.com/52683681/227114278-5acf37ca-b0b0-4298-abe7-c37b31be4834.png",
-      "https://user-images.githubusercontent.com/52683681/227114319-349a0ce9-1d5b-472a-827c-aba1279dcf7b.png" 
+      "https://user-images.githubusercontent.com/52683681/224593737-29775208-5cb6-47d2-818a-079785c4928e.png", "https://user-images.githubusercontent.com/52683681/224592727-73608d42-d7c7-4f06-8b44-d356fc48f2aa.png"
     ],
-    "mainImg" : "https://user-images.githubusercontent.com/52683681/227114418-3867cfb3-b423-4210-8fb0-47ddb98b954f.png",
-    "href" : "https://gitlog-yunjoa.vercel.app/",
-    "githref" : "https://github.com/yunjoa/gitlog",
+    "mainImg" : "https://user-images.githubusercontent.com/52683681/224592507-e6ccac2a-c56c-4bdb-8a9c-ffa3e2102d16.png",
+    "href" : "https://green-insta-project.github.io/planner/",
+    "githref" : "https://github.com/green-insta-project/planner",
 
-    "updateDate" : "0021-03-06"
+    "updateDate" : "2022-03-16"
   }
-
+ 
 ]
